@@ -7,6 +7,7 @@ class Board extends React.Component {
       <Square
         value={this.props.squares[i]}
         onClick={() => this.props.onClick(i)}
+        winningSquare={this.props.winningSquares.indexOf(i) >= 0 ? true : false}
       />
     );
   }

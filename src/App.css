@@ -37,6 +37,10 @@ ul {
   width: 34px;
 }
 
+.square--winning {
+  background: greenyellow;
+}
+
 .square:focus {
   outline: none;
 }
